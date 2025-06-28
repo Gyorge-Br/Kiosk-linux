@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=FirefoxKiosk
+Exec=/home/KioskSites.sh
+Comment=
+Terminal=false
+PrefersNonDefaultGPU=false
+Icon=cinnamon-panel-launcher
+Type=Application
+Name[pt_BR]=FirefoxKiosk.desktop

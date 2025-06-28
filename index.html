@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Streamings Populares</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 0 10%;
+    }
+
+    .streaming {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+
+    .streaming:hover{
+      background-color: #333;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    #img{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        row-gap: 10%;
+        column-gap: 9%;
+        padding: 0px 25%;
+        margin-top: 10%;
+        justify-items: center;
+    }
+
+    #img1,#img2,#img3,#img4{
+        width: 170px;
+        height: 120px;
+        border-radius: 20px;
+        color: #fff;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+
+    #img1:hover,#img2:hover,#img3:hover,#img4:hover{
+        width: 340px;
+        height: 240px;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        z-index: 5;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Serviços de Streaming</h1>
+
+  <div class="grid">
+    <a href="https://netflix.com" class="streaming" accesskey="1">Netflix</a>
+    <a href="https://primevideo.com" class="streaming" accesskey="2">Prime Video</a>
+    <a href="https://disneyplus.com" class="streaming" accesskey="3">Disney Plus</a>
+    <a href="https://www.paramountplus.com/br" class="streaming" accesskey="4">Paramount Plus</a>
+    <a href="https://www.youtube.com" class="streaming" accesskey="5">Youtube</a>
+    <a href="file:///home/kiosk/Música" class="streaming" accesskey="6">Musicas (Offline)</a>
+        <a href="file:///home/kiosk/Vídeos" class="streaming" accesskey="7">Videos (Offline)</a>
+    <!-- Adicione ou remova links como esse facilmente -->
+  </div>
+
+  <div id="img">
+        <img src="./img1.JPG" id="img1">
+        <img src="./img2.JPG" id="img2">
+        <img src="./img3.JPG" id="img3">
+        <img src="./img4.JPG" id="img4">
+  </div>
+  <footer>
+    <p>2025 · PC da sala</p>
+  </footer>
+</body>
+</html>
+
