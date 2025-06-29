@@ -5,6 +5,6 @@ Nsse caso é o firefox, com um site html redirecionando para varios sites de str
 em algum tipo de projeto de TVbox.
 
   Para criar um Kiosk, primeiro coloque o arquivo .desktop no diretorio que seu gerenciador de
-login usa para buscar as interfaces graficas instaladas (Geralmente em /usr/share/xsessions),
+login usa para buscar as interfaces graficas instaladas (Geralmente em "/usr/share/xsessions"),
 depois coloque o arquivo .sh e o .html em /home. Pronto agora basta encerrar a sessão atual,
 e no gerenciador de login seleciona o .desktop.
