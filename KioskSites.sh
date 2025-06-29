@@ -30,5 +30,5 @@ fi
 # Abre o Firefox com o perfil, direto no site, sem interface
 firefox --no-remote \
         --profile "$PROFILE_DIR" \
-        --kiosk "https://www.$USER.com/br"
+        --kiosk "./index.html"
 
